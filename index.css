@@ -1,0 +1,102 @@
+body {
+    margin: 60px;
+    text-align: center;
+    background: #850E35;
+    color: #FFF5E4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+span {
+    color: #F94892;
+    text-shadow: 2px 2px 3px whitesmoke;
+}
+
+.get-length {
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+input {
+    border-radius: 30px;
+    border: 2px solid #F94892;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.choice {
+    display: flex;
+    justify-content: center;
+}
+
+.symbol,
+.text,
+.number {
+    margin: 10px;
+}
+
+.symbols-container,
+.numbers-container {
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.toggle {
+    width: 60px;
+    height: 35px;
+    background: #FFC4C4;
+    border-radius: 30px;
+    position: relative;
+    transition: 0.3s;
+}
+
+.toggle .toggle-button {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 25px;
+    height: 25px;
+    background: white;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.toggle.active {
+    background: #EEEEEE;
+}
+
+.symbols-container .toggle.active .toggle-button {
+    left: 30px;
+}
+
+.numbers-container .toggle.active .toggle-button {
+    left: 30px;
+}
+
+#generate-el {
+    font-weight: 800;
+    color: #EE6983;
+    margin-top: 50px;
+    padding: 15px 40px;
+    border-radius: 20px;
+    border: none;
+    background: #FFF5E4;
+    cursor: pointer;
+}
+
+.pass {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#pass1-el,
+#pass2-el {
+    background: #850E35;
+    border-radius: 10px;
+    border: 1px solid #EEEEEE;
+    padding: 20px 50px;
+    cursor: pointer;
+}
